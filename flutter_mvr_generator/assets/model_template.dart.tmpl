@@ -1,0 +1,25 @@
+class {{baseClassName}} extends BaseModel<{{idType}}> {{mixins}} {
+  {{fields}}
+
+  {{baseClassName}}(
+     {{constructorFields}}
+  ) :
+     {{fieldsLoad}}
+     {{superConstructor}};
+
+  //GETTERS
+  {{getters}}
+
+  //SETTERS
+  {{setters}}
+
+  Map<String, dynamic> toJson() => {
+     {{toJson}}
+  };
+
+  static {{className}} fromJson(Map<String, dynamic> json) => {{className}}(
+     {{fromJson}}
+  );
+
+  {{equatable}}
+}

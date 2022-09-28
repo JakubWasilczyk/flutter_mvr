@@ -1,0 +1,18 @@
+targets:
+  $default:
+    builders:
+      model_generator:
+        enabled: true
+        options:
+          build_extensions:
+            "{{dir}}/{{file}}.dart": "{{dir}}/base/{{file}}.base.dart"
+
+builders:
+  model_generator:
+    import: "package:flutter_mvr_generator/builder.dart"
+    builder_factories: ["modelBuilder"]
+    build_extensions: { "{{}}.dart": ["base/{{}}.base.dart"] }
+    auto_apply: dependents
+    build_to: source
+    applies_builders: ["source_gen|combining_builder"]
+    runs_before: ["injectable_builder"]
