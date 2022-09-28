@@ -2,7 +2,7 @@ name: flutter_mvr_generator
 description: Generator for MVR pattern. Generates BaseModels for Models
 publish_to: 'none'
 version: 0.0.1
-homepage: https://github.com/JakubWasilczyk/flutter_mvrs
+homepage: https://github.com/JakubWasilczyk/flutter_mvr
 
 environment:
   sdk: ">=2.17.2 <3.0.0"
@@ -13,9 +13,9 @@ dependencies:
   flutter:
     sdk: flutter
   source_gen: ^1.2.5
-  flutter_mvrs:
+  flutter_mvr:
     git:
-      url: git@github.com:JakubWasilczyk/flutter_mvrs.git
+      url: git@github.com:JakubWasilczyk/flutter_mvr.git
       path: flutter_mvr
 
 dev_dependencies:

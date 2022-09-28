@@ -1,4 +1,4 @@
-# flutter_mvrs_example
+# flutter_mvr_example
 
 A new Flutter project.
 

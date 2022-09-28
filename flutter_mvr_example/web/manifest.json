@@ -1,6 +1,6 @@
 {
-    "name": "flutter_mvrs_example",
-    "short_name": "flutter_mvrs_example",
+    "name": "flutter_mvr_example",
+    "short_name": "flutter_mvr_example",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

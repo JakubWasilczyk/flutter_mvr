@@ -1,4 +1,4 @@
-import 'package:flutter_mvrs_firestore/flutter_mvrs_firestore.dart';
+import 'package:flutter_mvr_firestore/flutter_mvr_firestore.dart';
 
 mixin ModelSave<T extends BaseModel> on BaseFirestore<T> {
   Future<String> _create(T model) async {

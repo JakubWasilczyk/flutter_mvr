@@ -11,18 +11,18 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  flutter_mvrs:
+  flutter_mvr:
     git:
-      url: git@github.com:JakubWasilczyk/flutter_mvrs.git
-      path: flutter_mvrs
+      url: git@github.com:JakubWasilczyk/flutter_mvr.git
+      path: flutter_mvr
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^1.0.0
   build_runner: ^2.1.10
-  flutter_mvrs_builder:
-    path: ../flutter_mvrs_builder
+  flutter_mvr_builder:
+    path: ../flutter_mvr_builder
 
 
 flutter:

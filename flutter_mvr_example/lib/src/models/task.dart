@@ -1,4 +1,4 @@
-import 'package:flutter_mvrs/flutter_mvrs.dart';
+import 'package:flutter_mvr/flutter_mvr.dart';
 
 part 'base/task.base.dart';
 

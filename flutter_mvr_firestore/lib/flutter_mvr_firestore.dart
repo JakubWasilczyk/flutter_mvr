@@ -1,7 +1,7 @@
-library flutter_mvrs_firestore;
+library flutter_mvr_firestore;
 
 export 'package:cloud_firestore/cloud_firestore.dart';
-export 'package:flutter_mvrs/flutter_mvrs.dart';
+export 'package:flutter_mvr/flutter_mvr.dart';
 
 export 'src/base_collection_provider.dart';
 export 'src/base_firestore.dart';

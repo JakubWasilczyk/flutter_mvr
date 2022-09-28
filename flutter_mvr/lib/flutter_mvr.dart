@@ -1,4 +1,4 @@
-library flutter_mvrs;
+library flutter_mvr;
 
 export 'annotations/default_annotation.dart';
 export 'annotations/json_ignore_annotation.dart';

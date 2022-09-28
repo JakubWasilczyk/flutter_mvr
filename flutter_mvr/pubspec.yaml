@@ -1,7 +1,7 @@
 name: flutter_mvr
 description: A Flutter MVR pattern package. Helps keep things organized
 version: 0.0.1
-homepage: https://github.com/JakubWasilczyk/flutter_mvrs
+homepage: https://github.com/JakubWasilczyk/flutter_mvr
 
 environment:
   sdk: ">=2.17.2 <3.0.0"

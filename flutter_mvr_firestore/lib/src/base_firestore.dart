@@ -1,4 +1,4 @@
-import 'package:flutter_mvrs_firestore/flutter_mvrs_firestore.dart';
+import 'package:flutter_mvr_firestore/flutter_mvr_firestore.dart';
 
 abstract class BaseFirestore<T extends BaseModel> {
   final FirebaseFirestore firestore;

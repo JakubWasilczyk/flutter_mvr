@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(flutter_mvrs_example LANGUAGES CXX)
+project(flutter_mvr_example LANGUAGES CXX)
 
-set(BINARY_NAME "flutter_mvrs_example")
+set(BINARY_NAME "flutter_mvr_example")
 
 cmake_policy(SET CMP0063 NEW)
 

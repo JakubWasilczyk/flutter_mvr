@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter_mvrs/flutter_mvrs.dart';
+import 'package:flutter_mvr/flutter_mvr.dart';
 
 abstract class Filter implements BaseFilter {
   Query<T> apply<T>(Query<T> query);

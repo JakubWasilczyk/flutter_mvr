@@ -195,19 +195,19 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.4"
-  flutter_mvrs:
+  flutter_mvr:
     dependency: "direct main"
     description:
-      path: flutter_mvrs
+      path: flutter_mvr
       ref: HEAD
       resolved-ref: b4a340bd04e5aff9009c167b6a940d47cca60bd9
-      url: "git@github.com:JakubWasilczyk/flutter_mvrs.git"
+      url: "git@github.com:JakubWasilczyk/flutter_mvr.git"
     source: git
     version: "0.0.1"
-  flutter_mvrs_builder:
+  flutter_mvr_builder:
     dependency: "direct dev"
     description:
-      path: "../flutter_mvrs_builder"
+      path: "../flutter_mvr_builder"
       relative: true
     source: path
     version: "0.0.1"

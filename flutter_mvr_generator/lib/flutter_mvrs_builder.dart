@@ -1,1 +1,1 @@
-library flutter_mvrs_builder;
+library flutter_mvr_builder;
