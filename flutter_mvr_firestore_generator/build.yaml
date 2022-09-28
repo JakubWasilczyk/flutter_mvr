@@ -1,7 +1,7 @@
 targets:
   $default:
     builders:
-      model_generator:
+      repository_generator:
         enabled: true
         options:
           build_extensions:
@@ -9,7 +9,7 @@ targets:
 
 builders:
   model_generator:
-    import: "package:flutter_mvr_builder/builder.dart"
+    import: "package:flutter_mvr_firestore_generator/builder.dart"
     builder_factories: ["modelBuilder"]
     build_extensions: { "{{}}.dart": ["base/{{}}.base.dart"] }
     auto_apply: dependents

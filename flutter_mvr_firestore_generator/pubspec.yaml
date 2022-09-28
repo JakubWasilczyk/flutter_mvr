@@ -16,6 +16,10 @@ dependencies:
     git:
       url: git@github.com:JakubWasilczyk/flutter_mvr.git
       path: flutter_mvr
+  flutter_mvr_firestore:
+    git:
+      url: git@github.com:JakubWasilczyk/flutter_mvr.git
+      path: flutter_mvr_firestore
 
 dev_dependencies:
   flutter_test:

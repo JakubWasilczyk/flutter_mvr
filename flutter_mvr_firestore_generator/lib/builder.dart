@@ -1,4 +1,4 @@
-library flutter_mvr_builder.builder;
+library flutter_mvr_firestore_generator.builder;
 
 import 'package:build/build.dart';
 import 'package:source_gen/source_gen.dart';
