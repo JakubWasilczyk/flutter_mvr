@@ -1,5 +1,5 @@
 mixin UpdatedAt {
   static const key = 'updatedAt';
 
-  DateTime? get updatedAt;
+  late final DateTime? updatedAt;
 }

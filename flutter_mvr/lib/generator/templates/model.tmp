@@ -1,0 +1,12 @@
+{{imports}}
+
+part 'base/{{fileName}}.base.dart';
+
+class {{className}} extends Base{{className}} {
+
+  Base{{className}}(
+     {{superFields}}
+  ) : {{superConstructor}};
+
+  factory {{className}}.fromJson(Map<String, dynamic> json) => Base{{className}}.fromJson(json);
+}

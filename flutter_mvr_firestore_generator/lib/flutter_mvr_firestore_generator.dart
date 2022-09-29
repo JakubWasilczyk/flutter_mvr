@@ -1,1 +1,0 @@
-library flutter_mvr_firestore_generator;

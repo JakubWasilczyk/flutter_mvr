@@ -1,5 +1,5 @@
-mixin CreatedAt {
+abstract class CreatedAt {
   static const key = 'createdAt';
 
-  DateTime? get createdAt;
+  late final DateTime? createdAt;
 }

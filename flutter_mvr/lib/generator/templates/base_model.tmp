@@ -1,0 +1,29 @@
+
+part of '../{{fileName}}.dart';
+
+{{description}}
+class Base{{className}} extends BaseModel<{{idType}}> {{mixins}} {
+  {{fields}}
+
+  Base{{className}}({
+     {{constructorFields}}
+  }) :
+     {{fieldsLoad}}
+     {{superConstructor}};
+
+  //GETTERS
+  {{getters}}
+
+  //SETTERS
+  {{setters}}
+
+  Map<String, dynamic> toJson() => {
+     {{toJson}}
+  };
+
+  static {{className}} fromJson(Map<String, dynamic> json) => {{className}}(
+     {{fromJson}}
+  );
+
+  {{equatable}}
+}

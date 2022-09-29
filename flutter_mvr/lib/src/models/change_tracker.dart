@@ -1,4 +1,4 @@
-abstract class ChangeTracker {
+mixin ChangeTracker {
   final Map<String, dynamic> changes = {};
 
   bool get hasChanges => changes.isNotEmpty;

@@ -1,0 +1,28 @@
+TestType:
+  path: src/
+  type: custom
+
+Task:
+  created_at: true
+  updated_at: true
+  description: This is an example Task Model
+  fields:
+    id:
+      type: string
+      description: The identifier as string
+    title:
+      type: string
+      default: 'test'
+      description: The Task's Title
+    subtitle:
+      type: string
+      description: The Task's Subtitle
+    is_checked:
+      type: boolean
+      json_ignore: true
+      default: false
+      description: Task's IsChecked which is not saved
+    test_type:
+      type: TestType
+      default: const TestType("stoca")
+      description: Task's Test Type
